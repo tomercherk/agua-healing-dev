@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>עדי מור · טיפולי מים – Agua Healing</title>
+  <meta name="description" content="טיפולי מים בציפה וצלילה וסדנאות בבריכת עדן, בית חנניה. Water Dance, וואטסו ועיסוי אגן ורחם במים. טיפול זוגי, סדנאות, מחירון ושוברי מתנה.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3e8da">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400;1,500&family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=15edd5d">
+  <script>
+    (function (root) {
+      root.classList.add('js');
+      // Samsung Internet in dark mode repaints light pages dark and ignores color-scheme. The page
+      // cannot tell when that is happening (prefers-color-scheme reports light and system colors
+      // resolve light there), so 'fd' is set for every Samsung Internet visitor. It switches on the
+      // guard in styles.css / main.js. '#fd' in the address forces it on in any browser, for testing.
+      if (/SamsungBrowser/i.test(navigator.userAgent) || location.hash === '#fd') root.classList.add('fd');
+    })(document.documentElement);
+  </script>
+</head>
+<body>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="top">
+    <!-- The water photo opens the page and carries the title. Adi's film follows it: the film
+         has its own titles in the middle of the frame, so no heading sits on top of it. -->
+    <div class="hero__text hero__text--photo">
+      <div class="wrap">
+        <h1 class="load" style="--d:0"><span class="brand" dir="ltr">Agua Healing</span> טיפולים וסדנאות מים</h1>
+        <nav class="hero__nav load" style="--d:1" aria-label="תיאום">
+          <a class="btn btn--light" href="https://wa.me/972523323966?text=%D7%94%D7%99%D7%99%20%D7%A2%D7%93%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%AA%D7%90%D7%9D%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%20%D7%91%D7%9E%D7%99%D7%9D" target="_blank" rel="noopener">לתיאום בוואטסאפ</a>
+        </nav>
+      </div>
+      <!-- the band between the photo and the film; it sits inside this block so the forced-dark guard covers it -->
+      <div class="hero__band">
+        <p class="slogan load" style="--d:2">“May this journey bring you home”</p>
+      </div>
+    </div>
+    <figure class="hero__media">
+      <video autoplay muted loop playsinline preload="metadata" poster="assets/img/hero-poster.jpg" width="1920" height="1080" aria-label="סרטון: טיפולי וסדנאות מים בבריכה">
+        <!-- HEVC first: same quality at about 60% of the size; browsers without it fall back to H.264 -->
+        <source src="assets/video/hero-hevc.mp4" type='video/mp4; codecs="hvc1"'>
+        <source src="assets/video/hero.mp4" type="video/mp4">
+      </video>
+    </figure>
+  </header>
+
+  <main>
+
+    <!-- ============ RESERVISTS ============ -->
+    <section class="section section--notice" id="reservists">
+      <div class="wrap">
+        <p class="reveal"><span class="notice__mark" aria-hidden="true">*</span>משרתי ומשרתות מילואים יכולים לקבל <b>החזר מלא</b> על טיפולים וסדנאות.</p>
+      </div>
+    </section>
+
+    <!-- ============ TREATMENTS ============ -->
+    <section class="section section--sand" id="treatments">
+      <div class="wrap">
+        <h2 class="reveal">הטיפולים והסדנאות</h2>
+        <div class="tiles">
+          <button class="tile reveal" type="button" style="--d:0" aria-haspopup="dialog" data-gallery="workshop-01 workshop-02 workshop-video.mp4 workshop-03 workshop-04 workshop-05 workshop-06 workshop-07 workshop-08 workshop-09 workshop-10">
+            <img src="assets/img/treat-workshop.jpg" alt="מעגל בסדנת מים" loading="lazy">
+            <span class="tile__title">סדנה במים</span>
+            <span class="tile__more" hidden>
+              <h3>סדנה במים</h3>
+              <p>מעגל נשים · רווקות · יום הולדת · גיבוש לצוות. כשעתיים – בבריכה שלי, שלכם או בטבע.</p>
+              <a class="btn btn--light" href="#workshops" data-close>עוד על הסדנאות</a>
+            </span>
+          </button>
+
+          <button class="tile reveal" type="button" style="--d:1" aria-haspopup="dialog" data-gallery="couple-01 couple-02 couple-03 couple-04 couple-05">
+            <img src="assets/img/treat-couple.jpg" alt="טיפול זוגי במים" loading="lazy">
+            <span class="tile__title">זוג במים</span>
+            <span class="tile__more" hidden>
+              <h3>זוג במים</h3>
+              <p>להרפות מהיומיום ולהיפגש דרך מימד המים. טיפול זוגי עם שתי מטפלות – או סדנה זוגית משותפת, בתנועה, ציפה ומשחקיות.</p>
+              <a class="btn btn--light" href="https://wa.me/972523323966?text=%D7%94%D7%99%D7%99%20%D7%A2%D7%93%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%96%D7%95%D7%92%20%D7%91%D7%9E%D7%99%D7%9D" target="_blank" rel="noopener">לתיאום בוואטסאפ</a>
+            </span>
+          </button>
+
+          <button class="tile reveal" type="button" style="--d:0" aria-haspopup="dialog" data-gallery="womb-01 womb-02 womb-video-1.mp4 womb-03 womb-video-2.mp4 womb-05">
+            <img src="assets/img/treat-womb.jpg" alt="עיסוי אגן ורחם במים" loading="lazy">
+            <span class="tile__title">עיסוי אגן ורחם במים</span>
+            <span class="tile__more" hidden>
+              <h3>עיסוי אגן ורחם במים</h3>
+              <p>לנשים. ידע עתיק משבט המאיה וטכניקות טיפול במים – הזמנה לנוח, להתמלא ולהתחבר.</p>
+              <a class="btn btn--light" href="https://wa.me/972523323966?text=%D7%94%D7%99%D7%99%20%D7%A2%D7%93%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%A2%D7%99%D7%A1%D7%95%D7%99%20%D7%90%D7%92%D7%9F%20%D7%95%D7%A8%D7%97%D7%9D%20%D7%91%D7%9E%D7%99%D7%9D" target="_blank" rel="noopener">לתיאום בוואטסאפ</a>
+            </span>
+          </button>
+
+          <button class="tile reveal" type="button" style="--d:1" aria-haspopup="dialog" data-gallery="personal-01 personal-02 personal-video.mp4 personal-03 personal-04 personal-06 personal-07">
+            <img src="assets/img/treat-personal.jpg" alt="טיפול מים אישי בציפה" loading="lazy">
+            <span class="tile__title">טיפול מים אישי</span>
+            <span class="tile__more" hidden>
+              <h3>טיפול מים אישי</h3>
+              <p>מסע בחזרה לעצמך. מסע מדיטטיבי ותנועתי בין ציפה לצלילה, דרך וואטסו, Water Dance והצללות – במרחב חם, מכיל וללא כוח כבידה.</p>
+              <a class="btn btn--light" href="https://wa.me/972523323966?text=%D7%94%D7%99%D7%99%20%D7%A2%D7%93%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%20%D7%9E%D7%99%D7%9D%20%D7%90%D7%99%D7%A9%D7%99" target="_blank" rel="noopener">לתיאום בוואטסאפ</a>
+            </span>
+          </button>
+        </div>
+
+        <div class="cards cards--single">
+          <article class="card reveal" style="--d:2">
+            <img src="assets/img/treat-series.jpg" alt="טיפול מים תהליכי" loading="lazy" width="1466" height="2200">
+            <div class="card__body">
+              <h3>כרטיסיית טיפולים</h3>
+              <p>לטיפול תהליכי, שמעמיק ממפגש למפגש. כרטיסייה של 4 או 8 סשנים במחיר מיוחד.</p>
+              <a class="link" href="https://wa.me/972523323966?text=%D7%94%D7%99%D7%99%20%D7%A2%D7%93%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%9B%D7%A8%D7%98%D7%99%D7%A1%D7%99%D7%99%D7%AA%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%9D" target="_blank" rel="noopener">לתיאום בוואטסאפ</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section--shell" id="about">
+      <div class="wrap split split--about">
+        <figure class="split__media reveal">
+          <img src="assets/img/adi-about.jpg" alt="עדי מור מטפלת בבריכה" loading="lazy" width="1466" height="2200">
+        </figure>
+        <div class="split__text">
+          <p class="eyebrow reveal">אודות</p>
+          <h2 class="reveal">עדי מור</h2>
+          <p class="role reveal">מטפלת Water Dance ועיסוי אגן ורחם</p>
+          <p class="lead lead--tight reveal">לאורך השנים למדתי מהמורים המובילים בארץ ובעולם, בעבודתי אני משלבת גישות שונות של עבודה במים, <b>תנועה, הצללות ונשימה</b>.</p>
+          <p class="lead lead--tight reveal">אני מלווה נשים, זוגות וקבוצות בתהליכים של הקשבה לגוף, העמקת החיבור הפנימי וגילוי מרחב חדש של חלימה ותנועה דרך גוף ומים.</p>
+          <p class="lead lead--close reveal">להאט, להקשיב פנימה ולפגוש את עצמנו מחדש.</p>
+          <!-- Her trainings as two lines of text, not as boxes that read like buttons. -->
+          <div class="training reveal">
+            <h3>ההכשרות שלי</h3>
+            <p><bdi>Water Dance</bdi><span class="sep">|</span><bdi>Aqua Womb Therapy</bdi><span class="sep">|</span><bdi>Watsu</bdi></p>
+            <p>יוגה קונדליני<span class="sep">|</span>יוגה לנשים בהריון<span class="sep">|</span>מיינדפולנס</p>
+          </div>
+          <!-- More about Adi, opened on request: her studies. -->
+          <details class="more reveal">
+            <summary><span class="more__open">להמשך קריאה</span><span class="more__close">הצגה מקוצרת</span></summary>
+            <div class="more__body">
+              <!-- Adi's studies, newest year first; each year once, with what she studied that year. -->
+              <ol class="cv">
+                <li style="--d:0">
+                  <span class="cv__year">2026</span>
+                  <ul>
+                    <li>אסיסטנטית בהכשרת מטפלות Aqua Womb Therapy</li>
+                    <li>השתלמות בעבודה עם טראומה במים</li>
+                    <li>הכשרת מטפלות בסובאדה – עיסוי אגן ורחם, גלית בראלי</li>
+                  </ul>
+                </li>
+                <li style="--d:1">
+                  <span class="cv__year">2024</span>
+                  <ul>
+                    <li><bdi>Water Dance:</bdi><br><bdi>Level 1, Level 2, Integration</bdi><br><bdi>(By Arjana)</bdi></li>
+                  </ul>
+                </li>
+                <li style="--d:2">
+                  <span class="cv__year">2023</span>
+                  <ul>
+                    <li>Aqua Womb Therapy – עיסוי אגן ורחם לנשים במים</li>
+                    <li>הכשרת מורות ליוגה בהיריון, יעל אלחנן</li>
+                    <li>השתלמות יוגה קונדליני לעבודה עם טראומה (KRI)</li>
+                  </ul>
+                </li>
+                <li style="--d:3">
+                  <span class="cv__year">2022</span>
+                  <ul>
+                    <li>Aguahara, Level 1</li>
+                    <li>Watsu, Level 1</li>
+                    <li>יוגה קונדליני, Level 2 (KRI)</li>
+                  </ul>
+                </li>
+                <li style="--d:4">
+                  <span class="cv__year">2020</span>
+                  <ul>
+                    <li>יוגה קונדליני, Level 1 ו-Level 2 (KRI)</li>
+                    <li>הכשרת מדריכות מיינדפולנס לילדים ולנוער</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORKSHOPS ============ -->
+    <section class="section section--sand" id="workshops">
+      <div class="wrap">
+        <h2 class="reveal">סדנאות מים לנשים, לזוגות ולקבוצות</h2>
+        <p class="lead lead--wide lead--tight reveal">חוויה במים שמשלבת תנועה, ציפה, צלילה, משחק ותקשורת בלי מילים. הציפה והתמיכה של המים נותנות לגוף חופש תנועה שלא קיים על היבשה, ופותחות מרחב להאט, להקשיב ולהיפגש קצת אחרת – עם עצמנו ועם מי שסביבנו.</p>
+        <p class="lead lead--wide lead--flush reveal">אפשר לבחור בסדנת נשים, בסדנה זוגית או בסדנה פרטית ליום הולדת, למפגש חברות או לאירוע מיוחד. כל סדנה מותאמת לקבוצה, מתקיימת בבריכה שלי או בבריכה שתבחרו, ולא דורשת ניסיון קודם.</p>
+        <a class="btn btn--below reveal" href="https://wa.me/972523323966?text=%D7%94%D7%99%D7%99%20%D7%A2%D7%93%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A2%D7%9C%20%D7%A1%D7%93%D7%A0%D7%94%20%D7%91%D7%9E%D7%99%D7%9D" target="_blank" rel="noopener">לתיאום סדנה בוואטסאפ</a>
+        <!-- A small photo gallery: a row that scrolls sideways and moves on by itself (see main.js). -->
+        <div class="strip reveal">
+          <img src="assets/img/album-01.jpg" alt="מעגל נשים בסדנת מים" loading="lazy" width="900" height="675">
+          <img src="assets/img/album-02.jpg" alt="חיוך במים" loading="lazy" width="600" height="900">
+          <img src="assets/img/album-03.jpg" alt="סדנה קבוצתית בבריכה" loading="lazy" width="900" height="675">
+          <img src="assets/img/album-04.jpg" alt="קערות טיבטיות ליד המים" loading="lazy" width="600" height="900">
+          <img src="assets/img/album-05.jpg" alt="ציפה עם כיסוי עיניים" loading="lazy" width="900" height="675">
+          <img src="assets/img/album-06.jpg" alt="טיפול בבריכה" loading="lazy" width="600" height="900">
+          <img src="assets/img/album-07.jpg" alt="מעגל גדול בסדנת מים" loading="lazy" width="900" height="675">
+          <img src="assets/img/album-08.jpg" alt="מעגל שיתוף ליד הבריכה" loading="lazy" width="900" height="675">
+          <img src="assets/img/album-09.jpg" alt="סדנה במים פתוחים" loading="lazy" width="675" height="900">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY WATER ============ -->
+    <section class="section section--shell" id="why">
+      <div class="wrap why">
+        <h2 class="reveal">למה מים?</h2>
+        <!-- The benefits sit on a ring around the middle; --x / --y are each circle's center. -->
+        <div class="orbit">
+          <p class="orbit__core reveal">יתרונות המים</p>
+          <ul>
+            <li class="reveal" style="--x:50%;--y:14%;--d:1">איזון מערכת העצבים</li>
+            <li class="reveal" style="--x:81.2%;--y:32%;--d:2">שחרור מתחים</li>
+            <li class="reveal" style="--x:81.2%;--y:68%;--d:3">הפחתת כאב</li>
+            <li class="reveal" style="--x:50%;--y:86%;--d:4">שינה טובה יותר</li>
+            <li class="reveal" style="--x:18.8%;--y:68%;--d:5">שקט מדיטטיבי</li>
+            <li class="reveal" style="--x:18.8%;--y:32%;--d:6">חיבור פנימי עמוק</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICES ============ -->
+    <section class="section section--aqua" id="prices">
+      <div class="wrap split">
+        <figure class="split__media reveal">
+          <img src="assets/img/session-02.jpg" alt="טיפול זוגי בבריכה" loading="lazy" width="1466" height="2200">
+        </figure>
+        <div class="split__text">
+          <h2 class="reveal">מחירון</h2>
+
+          <div class="bar reveal">
+            <ul class="prices">
+              <li><span>טיפול מים אישי</span><b>₪480</b></li>
+              <li><span>עיסוי אגן ורחם במים</span><b>₪520</b></li>
+              <li><span>טיפול זוגי במים</span><b>₪860</b></li>
+              <li><span>סדנה זוגית במים</span><b>₪750</b></li>
+              <li><span>כרטיסיית 4 טיפולים</span><b>₪460 לטיפול</b></li>
+              <li><span>כרטיסיית 8 טיפולים</span><b>₪440 לטיפול</b></li>
+            </ul>
+            <p class="fine">החזר מלא למשרתי.ות מילואים · ניתן לרכוש שובר מתנה לטיפול אישי או זוגי.</p>
+          </div>
+
+          <a class="btn btn--clay reveal" href="https://wa.me/972523323966?text=%D7%94%D7%99%D7%99%20%D7%A2%D7%93%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%AA%D7%90%D7%9D%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%20%D7%91%D7%9E%D7%99%D7%9D" target="_blank" rel="noopener">לתיאום בוואטסאפ</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GIFT VOUCHER ============ -->
+    <section class="section section--sand" id="gift">
+      <div class="wrap gift">
+        <p class="eyebrow reveal">מתנה</p>
+        <h2 class="reveal">שובר מתנה</h2>
+        <p class="lead reveal">ניתן לרכוש שובר מתנה לטיפול אישי או זוגי.</p>
+        <div class="vouchers reveal">
+          <img src="assets/img/voucher-couple.jpg" alt="שובר מתנה למסע מים זוגי – Water Dance ו־Watsu" loading="lazy" width="940" height="788">
+          <img src="assets/img/voucher-personal.jpg" alt="שובר מתנה למסע מים – Water Dance ו־Womb Therapy" loading="lazy" width="940" height="788">
+        </div>
+        <a class="btn reveal" href="https://wa.me/972523323966?text=%D7%94%D7%99%D7%99%20%D7%A2%D7%93%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A8%D7%9B%D7%95%D7%A9%20%D7%A9%D7%95%D7%91%D7%A8%20%D7%9E%D7%AA%D7%A0%D7%94" target="_blank" rel="noopener">לרכישת שובר מתנה</a>
+      </div>
+    </section>
+
+    <!-- ============ THE POOL ============ -->
+    <section class="section section--clay" id="pool">
+      <div class="wrap">
+        <h2 class="reveal">הבריכה</h2>
+        <div class="duo">
+          <div class="trio__item reveal">
+            <span class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-6-5.500-6-10.500a6 6 0 0 1 12 0C18 15.500 12 21 12 21z"/><circle cx="12" cy="10.500" r="2.200"/></svg></span>
+            <div>
+              <h3>ליד בנימינה</h3>
+              <p>בריכה טיפולית פרטית ומחוממת בחוף הכרמל, במתחם פרטי ששמור עבורכם.</p>
+            </div>
+          </div>
+          <div class="trio__item reveal" style="--d:1">
+            <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 11.500 12 4l8 7.500"/><path d="M6 10v9.500h12V10"/><path d="M9 15.500c1-1 2-1 3 0s2 1 3 0"/></svg></span>
+            <div>
+              <h3>או אצלכם</h3>
+              <p>סדנאות בבריכה שלכם או בטבע, וטיפול פרטי בבריכה הביתית.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section section--shell" id="reviews">
+      <div class="wrap praise">
+        <h2 class="reveal">ביקורות</h2>
+        <!-- Reviews gallery: each <blockquote class="review"> is one slide. -->
+        <div class="reviews reveal">
+          <blockquote class="review">
+            <p>״משהו בשהייה במים חיבר בינינו, הוריד מחסומים, איפשר לכל אחת להיפתח בדרך שלה.״</p>
+            <cite>מתוך משוב על סדנת צוות</cite>
+          </blockquote>
+          <blockquote class="review">
+            <p>עדי מטפלת בחסד! זכיתי להכיר אותה ולעבור טיפול במים אצלה, הרגשתי עטופה, מחוברת ושיש לי את הידיים הכי אימהיות בעולם שנושאות אותי במים. הזדמנות ענקית להעניק לעצמכם שעה של אושר</p>
+            <cite>שובל</cite>
+          </blockquote>
+          <blockquote class="review">
+            <p>פעם שלישית שלי!<br>מדהים איך כל פעם החוויה שאני עוברת עם עצמי אחרת ועדי נשארת - עדי. קשובה, מכילה, מאפשרת לכל פחד או חשש מקום.<br>מתאימה את עצמה אלי ומאפשרת לי להתמסר (וזה לא פשוט לי). מה גם שזה לא נגמר במים, קיבלתי אחרי מקום ותמיכה לאדוות של הטיפול.<br>טיפול שהוא מסע ✨☀️🌻</p>
+            <cite>אביב</cite>
+          </blockquote>
+          <blockquote class="review">
+            <p>מפגש אישי למטפלת<br>אהובה אני רוצה להודות לך על המפגשי מים שלנו🩵<br>שמחה כל כך שבחרתי ללמוד דווקא ממך. הרגשתי שהיית מאוד מדויקת עבורי🌺, למדתי ממך המון גם מהידע והניסיון שלך וגם ברמה הפרקטית, איך לגשת לגוף של אישה בהריון ולעבוד איתו ברגישות ובביטחון.<br>הגעתי לזה עם הרבה יראת כבוד, ואפילו לא מעט חששות, אבל הדבר הכי משמעותי שקיבלתי ממך היה הביטחון לעשות את הצעד הזה ולהתחיל לטפל בנשים בכל שלבי ההריון, אחרי הטרימסטר הראשון.<br>תודה על המפגשים האלה, על המקצועיות, המסירות ובעיקר על הלב והעיניים הטובות🙏🏼<br>ממליצה בחום לכל מטפלת מים לעבור איתך את המפגשים האלה ולקבל עוד כלים שיתמכו בה בטיפולי הריון במים.</p>
+            <cite>שני</cite>
+          </blockquote>
+          <blockquote class="review">
+            <p>כבר פעם שלישית אצל עדי המדהימה בטיפול במים ואפילו עשינו סדנת מים לחברה לחתונה והיה מדהים ובעזרת השם אחזור בקרוב ❤️ אי אפשר לתאר את התחושה של אחרי רק צריך לבוא ולהתנסות חוויה מדהימה מרגיעה ומחברת לעצמכם מובטחת 🌸 תודה עלייך!!</p>
+            <cite>שירי פורת</cite>
+          </blockquote>
+          <blockquote class="review">
+            <p>הייתי אצל עדי במהלך ההריון פעמיים וגם פעם אחת אחרי הלידה. ממליצה מכל הלב ❤️ עדי רגישה מקצועית ונעימה כל כך</p>
+            <cite>שחר ליפשיץ</cite>
+          </blockquote>
+        </div>
+        <p class="rating reveal">
+          <a href="https://share.google/HLH2CsZnw2TbBk92T" target="_blank" rel="noopener"><span class="rating__stars" aria-hidden="true">★★★★★</span> <span>5.0 · 25 ביקורות ב־Google</span></a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section--deep" id="faq">
+      <div class="wrap split split--faq">
+        <div class="split__text">
+          <h2 class="reveal">למקרה ששאלת את עצמך…</h2>
+          <div class="faq">
+            <details class="reveal">
+              <summary>צריך לדעת לשחות?</summary>
+              <p>לא צריך לדעת לשחות ולא חייבות לצלול. רק להגיע כמו שאת.</p>
+            </details>
+            <details class="reveal">
+              <summary>כמה זמן נמשך המפגש?</summary>
+              <p>זמן במים – 50 דקות, זמן במתחם – שעה וחצי. סדנה קבוצתית נמשכת כשעתיים ומותאמת לאופי ולגודל הקבוצה.</p>
+            </details>
+            <details class="reveal">
+              <summary>מה ההבדל בין טיפול זוגי לסדנה זוגית?</summary>
+              <p>בטיפול זוגי שתי מטפלות מעניקות טיפול אישי לכל אחד ואחת, במקביל ובאותו מרחב מים. בסדנה זוגית זהו מפגש משותף איתי, שבו חוקרים את הקשר דרך תנועה, ציפה, משחקיות, מגע וצלילה עדינה.</p>
+            </details>
+            <details class="reveal">
+              <summary>האם יש החזר למשרתי.ות מילואים?</summary>
+              <p>כן. ניתן לקבל החזר מלא למשרתי.ות מילואים.</p>
+            </details>
+            <details class="reveal">
+              <summary>אפשר לקיים סדנה בבריכה שלנו?</summary>
+              <p>כן. את הסדנאות ניתן לקיים בבריכה הטיפולית שלי, בבריכה שלכם או בטבע. ניתן גם להזמין טיפול פרטי בבית הלקוחה.</p>
+            </details>
+          </div>
+          <p class="signoff reveal">נתראה במים ♡<br><b>עדי מור</b><br><span>מטפלת Water Dance ועיסוי אגן ורחם לנשים במים</span></p>
+          <a class="btn btn--light reveal" href="https://wa.me/972523323966" target="_blank" rel="noopener">לשאלות והתייעצות בוואטסאפ</a>
+        </div>
+        <figure class="split__media reveal">
+          <img src="assets/img/session-01.jpg" alt="טיפול בציפה" loading="lazy" width="2200" height="1466">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ INSTAGRAM ============ -->
+    <!-- A fixed selection of her posts, not a live feed; every tile opens the profile. -->
+    <section class="section section--sand" id="instagram">
+      <div class="wrap insta">
+        <p class="eyebrow reveal">Instagram</p>
+        <h2 class="reveal" dir="ltr">@agua.healing</h2>
+        <div class="insta__grid reveal">
+          <a href="https://www.instagram.com/agua.healing" target="_blank" rel="noopener"><img src="assets/img/ig-01-mayim-haim.jpg" alt="ציפה מתחת למים" loading="lazy" width="360" height="640"></a>
+          <a href="https://www.instagram.com/agua.healing" target="_blank" rel="noopener"><img src="assets/img/ig-10-couple-color.jpg" alt="זוג בבריכה" loading="lazy" width="360" height="640"></a>
+          <a href="https://www.instagram.com/agua.healing" target="_blank" rel="noopener"><img src="assets/img/ig-06-workshops.jpg" alt="סדנת מים" loading="lazy" width="360" height="640"></a>
+          <a href="https://www.instagram.com/agua.healing" target="_blank" rel="noopener"><img src="assets/img/ig-12-joy.jpg" alt="ציפה בבריכה" loading="lazy" width="360" height="640"></a>
+          <a href="https://www.instagram.com/agua.healing" target="_blank" rel="noopener"><img src="assets/img/ig-09-couple-workshop.jpg" alt="סדנה זוגית במים" loading="lazy" width="360" height="640"></a>
+          <a href="https://www.instagram.com/agua.healing" target="_blank" rel="noopener"><img src="assets/img/ig-02-womb.jpg" alt="עיסוי אגן ורחם במים" loading="lazy" width="360" height="640"></a>
+        </div>
+        <a class="btn reveal" href="https://www.instagram.com/agua.healing" target="_blank" rel="noopener">לעמוד האינסטגרם</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap reveal">
+      <svg class="logo" viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="38"/>
+        <path d="M6 64c18-14 34-14 54 0s36 14 54 0"/>
+      </svg>
+      <p class="footer__name">AGUA HEALING</p>
+      <p class="footer__tag">עדי מור · טיפולי מים</p>
+      <p class="footer__links">
+        <a href="https://www.instagram.com/agua.healing" target="_blank" rel="noopener">Instagram</a>
+        <span>·</span>
+        <a href="https://wa.me/972523323966" target="_blank" rel="noopener">WhatsApp</a>
+        <span>·</span>
+        <a href="tel:+972523323966" dir="ltr">052-332-3966</a>
+      </p>
+      <p class="footer__links footer__links--more">
+        <a href="booking.html">כבר קבעת? לפרטי הגעה ותשלום</a>
+        <span>·</span>
+        <a href="booking.html#cancel">ביטולים ושינויים</a>
+      </p>
+      <p class="footer__legend"><span class="draft">טיוטה</span> פריטים המסומנים כך הם טקסט לדוגמה וממתינים לאישור.</p>
+    </div>
+  </footer>
+
+  <a class="fab" href="https://wa.me/972523323966" target="_blank" rel="noopener" aria-label="וואטסאפ לעדי">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <div class="zoom" role="dialog" aria-modal="true" aria-label="פרטי הטיפול" hidden>
+    <div class="zoom__slides"></div>
+    <div class="zoom__dots" aria-hidden="true"></div>
+    <div class="zoom__text"></div>
+    <button class="zoom__close" type="button" aria-label="סגירה">&times;</button>
+  </div>
+  <script src="js/main.js?v=15edd5d"></script>
+</body>
+</html>
